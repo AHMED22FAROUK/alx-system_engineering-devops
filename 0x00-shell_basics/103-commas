@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -m -p -a -U LC_ALL=C
+ls -l -m -p -a -U LC_ALL=C sort
