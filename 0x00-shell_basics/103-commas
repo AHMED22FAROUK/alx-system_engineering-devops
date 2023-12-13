@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l -m -p -a -U LC_ALL=C
