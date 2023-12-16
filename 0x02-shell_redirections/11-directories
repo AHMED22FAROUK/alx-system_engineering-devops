@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -type d -printf "%h\n" | wc -l
