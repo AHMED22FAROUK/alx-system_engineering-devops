@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rla */ | wc -l
+ls -R1a */ |sort | wc -l
