@@ -13,9 +13,9 @@ def number_of_subscribers(subreddit):
     :param subreddit: The name of the subreddit (str)
     :return: The number of subscribers (int), or 0 if the subreddit is invalid
     """
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     headers = {
-        "User-Agent": "linux:myredditbot:v1.0.0 (by /u/ahmedfn)"
+        "User-Agent": 'My Usr Agent 1.0'
     }
     try:
         response = requests.get(url, headers=headers, allow_redirects=False)
